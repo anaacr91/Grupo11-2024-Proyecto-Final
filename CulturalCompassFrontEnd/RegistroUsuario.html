@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css" type="text/css">
+    <title>Registro de Usuario</title>
+    <script src="js/RegistroUsuario.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-primary bg-body-tertiary fixed-top mb-5" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Inicio.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="RegistroUsuario.html">Registro Usuario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="buscar_por_ubicacion.html">Buscar por Ubicación</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Buscar por Categoria
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="categoria_cultural.html">Categoria cultural </a></li>
+                  <li><a class="dropdown-item" href="categoria_musica.html">Categoria musica y conciertos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="categoria_teatro.html">Categoria Teatro</a></li>
+                  <li><a class="dropdown-item" href="categoria_gastronomica.html">Categoria Gastronomica</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busqueda por palabra clave</button>
+            </form>
+          </div>
+        </div>
+      </nav> <br><br>
+      <img src="logo/logo.jpg" alt="Logo de Cultural Compass" height="100" style="margin-top: 75px; margin-left: 75px;">
+       <br><br>
+      <section>
+        <header>
+            <h1 style=" margin-left: 75px;">Registro de Usuario</h1>
+        </header>
+    </section>
+
+<form id="registroForm" style=" margin-left: 75px;">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <span id="nombreError" class="error"></span><br>
+        
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <span id="emailError" class="error"></span><br>
+        
+        <label for="contrasena">Contraseña:</label><br>
+        <input type="password" id="contrasena" name="contrasena"><br>
+        <span id="contrasenaError" class="error"></span><br>
+        
+        <input type="submit" value="Registrarse">
+    </form>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

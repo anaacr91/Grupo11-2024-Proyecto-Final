@@ -1,0 +1,78 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"cultural_compass_data"},
+{"type":"table","name":"category","database":"cultural_compass_data","data":
+[
+{"id":"1","name_category":"ARTE DIGITAL"},
+{"id":"2","name_category":"EXPOSICION CULTURAL"},
+{"id":"3","name_category":"TEATRO"},
+{"id":"4","name_category":"CONCIERTOS"},
+{"id":"5","name_category":"CULTURA CATALANA"},
+{"id":"6","name_category":"EXPOSICION ARTISTICA"},
+{"id":"7","name_category":"FERIA GASTRONOMICA"},
+{"id":"8","name_category":"EVENTO DEPORTIVO"}
+]
+}
+,{"type":"table","name":"evento","database":"cultural_compass_data","data":
+[
+{"id":"1","name_event":"THE GREAT LIBRARY OF TOMORROW","start_at":"2024-03-15 22:03:10","end_at":"2024-05-15 21:32:43","description":"Más de 1000 m2 de instalaciones de arte digital para vivir inmersivamente en un metaverso de realidad virtual en el Espacio Aribau.","status":"ACTIVA","url":"https:\/\/www.thegreatlibraryoftomorrow.com","category_id":"1","location_id":"1","organizer_id":"1"},
+{"id":"2","name_event":"DINOSAURIOS DE LA PATAGONIA","start_at":"2024-03-15 21:53:29","end_at":"2024-06-02 21:53:29","description":"Los descubrimientos más emocionantes sobre los dinosaurios del CosmoCaixa de Barcelona.","status":"ACTIVA","url":"https:\/\/cosmocaixa.org\/es\/p\/dinosaurios-de-la-patagonia_a161193314?gad_source=1&gclid=CjwKCAjw48-vBh","category_id":"2","location_id":"2","organizer_id":"2"},
+{"id":"3","name_event":"BARCELONA BEER FESTIVAL","start_at":"2024-03-22 22:01:36","end_at":"2024-03-24 22:01:36","description":"El Barcelona Beer Festival es el punto de encuentro de aficionados y profesionales de la cerveza artesana más grande del sur de Europa. Una experiencia gastronómica que te adentrará en un auténtico universo sensorial donde descubrirás las mil y una posibilidades de esta suculenta bebida.","status":"PROXIMAMENTE","url":"https:\/\/barcelonabeerfestival.com\/es\/","category_id":"7","location_id":"3","organizer_id":"3"},
+{"id":"4","name_event":"OFFF.BARCELONA","start_at":"2024-04-04 22:09:18","end_at":"2024-04-06 22:09:18","description":"Vuelve el festival de creatividad digital OFFF Barcelona. Conferencias, exposiciones, instalaciones interactivas y mucho más para descubrir la actualidad las personas más talentosas del sector.","status":"PROXIMAMENTE","url":"https:\/\/www.offf.barcelona\/","category_id":"6","location_id":"4","organizer_id":"4"},
+{"id":"5","name_event":"TROFEO CONDE GODO","start_at":"2024-04-13 22:15:45","end_at":"2024-04-21 22:15:45","description":"El tenis de máximo nivel llega a Barcelona y enfrenta a las figuras más destacadas del mundo durante una emocionante semana.","status":"PROXIMAMENTE","url":"https:\/\/www.barcelonaopenbancsabadell.com\/","category_id":"8","location_id":"5","organizer_id":"5"},
+{"id":"6","name_event":"SANT JORDI","start_at":"2024-04-23 22:21:16","end_at":"2024-04-24 22:21:16","description":"La fiesta más esperada por los barceloneses y barcelonesas te dejará con la boca abierta. La ciudad se inunda de puestos con libros y rosas para celebrar por todo lo alto la cultura y el amor.","status":"PROXIMAMENTE","url":"https:\/\/www.rosessantjordi.com\/es\/sant-jordi-2024\/","category_id":"5","location_id":"6","organizer_id":"6"},
+{"id":"7","name_event":"SALON DEL COMIC","start_at":"2024-05-03 22:27:39","end_at":"2024-05-05 22:27:39","description":"Una cita ideal para toda la familia: exposiciones, talleres, encuentros con autores, mesas redondas, juegos de rol… ¡diversión asegurada!","status":"PROXIMAMENTE","url":"https:\/\/www.comic-barcelona.com\/es\/inicio.cfm","category_id":"2","location_id":"3","organizer_id":"7"},
+{"id":"8","name_event":"MOTO GP","start_at":"2024-05-24 22:35:01","end_at":"2024-05-26 22:35:01","description":"Vibra con los grandes de las dos ruedas y disfruta de actividades complementarias en el Circuit de Barcelona-Catalunya con el Gran premio Monster Energy de Catalunya Moto GP, la competición para los y las amantes del motociclismo.","status":"PROXIMAMENTE","url":"https:\/\/www.circuitcat.com\/es","category_id":"8","location_id":"7","organizer_id":"8"},
+{"id":"9","name_event":"PRIMAVERA SOUND","start_at":"2024-05-29 22:42:56","end_at":"2024-06-02 22:42:56","description":"No te pierdas uno de los festivales de música alternativa más importante de Europa. El Barcelona Primavera Sound impacta cada año con su extenso cartel de artistas de prestigio internacional ¡Imprescindible si lo tuyo es la música independiente!","status":"PROXIMAMENTE","url":"www.primaverasound.com","category_id":"4","location_id":"8","organizer_id":"9"},
+{"id":"10","name_event":"SONAR","start_at":"2024-06-13 22:48:33","end_at":"2024-06-15 22:48:33","description":"Forma parte de un hito único asistiendo al festival más innovador del mundo. Desde 1994 el Sónar trasciende y ofrece lo último en lenguaje multimedia y arte y música electrónica, lo que lo convierte en un referente internacional.","status":"PROXIMAMENTE","url":"https:\/\/sonar.es\/","category_id":"4","location_id":"3","organizer_id":"10"}
+]
+}
+,{"type":"table","name":"location","database":"cultural_compass_data","data":
+[
+{"id":"1","name_location":"BARCELONA- ARIBAU IMMERSIVE SPACE","additional_info":"C\/ d'Aribau, 5, 08011, Barcelona, Spain","longitud":"2.15977","latitud":"41.3902"},
+{"id":"2","name_location":"BARCELONA- COSMOCAIXA","additional_info":"C.ISAAC NEWTON, 26, BARCELONA","longitud":"2.04067","latitud":"41.4901"},
+{"id":"3","name_location":"BARCELONA- FIRA DE BARCELONA","additional_info":"Av. de la Reina Maria Cristina, s\/n, Sants-Montjuïc, 08004 Barcelona","longitud":"2.15151","latitud":"41.3719"},
+{"id":"4","name_location":"BARCELONA- PLAZA GLORIES CATALANES","additional_info":"Pl. De Les Glòries Catalanes, 38, Sant Martí, 08018 Barcelona","longitud":"2.1882","latitud":"41.403"},
+{"id":"5","name_location":"BARCELONA- REAL CLUB DE TENIS","additional_info":"C\/ De Bosch I Gimpera, 5, Les Corts, 08034 Barcelona","longitud":"2.11832","latitud":"41.3937"},
+{"id":"6","name_location":"BARCELONA- PASEO DE GRACIA","additional_info":"PASEO DE GRACIA, 45","longitud":"2.16391","latitud":"41.393"},
+{"id":"7","name_location":"MONTMELÓ- CIRCUITO","additional_info":"Ctra. Granollers, km. 2, 08160 Parets del Vallès, Barcelona","longitud":"2.256","latitud":"41.5722"},
+{"id":"8","name_location":"PARC DEL FORUM","additional_info":"Carrer de la Pau, 12, 08930 Sant Adrià de Besòs, Barcelona","longitud":"1.24862","latitud":"41.1147"}
+]
+}
+,{"type":"table","name":"organizer","database":"cultural_compass_data","data":
+[
+{"id":"1","name_org":"TOMORROWLAND","email":"https:\/\/www.instagram.com\/tomorrowland\/","phone":null,"company":"TOMORROWLAND","url":"www.tomorrowland.com"},
+{"id":"2","name_org":"COSMOCAIXA","email":"icosmocaixa@magmacultura.com","phone":"932 126 050","company":"COSMOCAIXA","url":"https:\/\/cosmocaixa.org\/"},
+{"id":"3","name_org":"BBF","email":"info@barcelonabeerfestival.com","phone":null,"company":"BEER EVENTS S.L.","url":"https:\/\/barcelonabeerfestival.com\/"},
+{"id":"4","name_org":"OFFFEST","email":"INFO@OFFF.BARCELONA","phone":null,"company":"OFFF","url":"https:\/\/www.offf.barcelona\/"},
+{"id":"5","name_org":"BCN OPEN BANC SABADELL ","email":"info@barcelonaopenbancsabadell.com","phone":"932 03 78 52","company":"OPEN BANC SABADELL","url":"https:\/\/www.barcelonaopenbancsabadell.com\/"},
+{"id":"6","name_org":"BARCELONA- AJUNTAMENT","email":"bigestio@bcn.cat","phone":"934027000","company":"AJUNTAMENT BARCELONA","url":"https:\/\/ajuntament.barcelona.cat\/"},
+{"id":"7","name_org":"FICOMIC","email":" info@ficomic.com","phone":null,"company":"FICOMIC","url":"https:\/\/www.ficomic.com\/es\/inicio.cfm"},
+{"id":"8","name_org":"CIRCUIT DE CATALUNYA","email":"info@circuitcat.com","phone":"(34) 93 571 97 00","company":"CIRCUIT DE CATALUNYA","url":"https:\/\/www.circuitcat.com\/es\/como-llegar-a-montmelo-2\/"},
+{"id":"9","name_org":"PRIMAVERA SOUND","email":"info@primaverasound.com","phone":"+34 93 301 00 90","company":"PRIMAVERA SOUND S.L.","url":"www.primaverasound.com"},
+{"id":"10","name_org":"ADVANCED MUSIC","email":"info@sonar.es.","phone":" 933 20 81 63 ","company":"ADVANCED MUSIC.S.L","url":"http:\/\/www.sonar.es"}
+]
+}
+,{"type":"table","name":"role","database":"cultural_compass_data","data":
+[
+{"id":"1","name_rol":"user"},
+{"id":"2","name_rol":"organizer"},
+{"id":"3","name_rol":"admin"}
+]
+}
+,{"type":"table","name":"tag","database":"cultural_compass_data","data":
+[
+
+]
+}
+,{"type":"table","name":"user","database":"cultural_compass_data","data":
+[
+{"id":"1","username":"ana","password":"123","role_id":"3","is_active":"1","created_at":"2024-03-17 10:52:31","email":"anacascanterodriguez@gmail.com"},
+{"id":"2","username":"yassir","password":"1234","role_id":"3","is_active":"1","created_at":"2024-03-18 16:21:22","email":"ysrmrn1998@gmail.com"},
+{"id":"3","username":"bernat","password":"1234","role_id":"3","is_active":"1","created_at":"2024-03-18 16:21:22","email":"bernesimobosch@gmail.com"},
+{"id":"4","username":"artur1","password":"1234","role_id":"2","is_active":"1","created_at":"2024-03-18 16:23:01","email":"ludmilla.tartu@gmail.com"},
+{"id":"5","username":"artur2","password":"1234","role_id":"2","is_active":"1","created_at":"2024-03-18 16:23:01","email":"arthur.trubitsin@gmail.com"},
+{"id":"6","username":"artur3","password":"1234","role_id":"1","is_active":"1","created_at":"2024-03-18 16:24:41","email":"gynvael@pm.me"}
+]
+}
+]
